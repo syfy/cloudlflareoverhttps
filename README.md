@@ -13,5 +13,5 @@ $ java gdns.jar -p 53
 ```
 
 > 值得注意的是，你需要确保你的服务器能够正常访问 https://dns.google.com 该程序才能正确运行。
-
-forked from a chinese developer who developed this original project. what i did was modified it to support socks5 proxy since i doesnt support ussage of one. 
+original developer : https://github.com/zengxs/gdns
+cloned from a chinese developer who developed this original project. what i did was modified it to support socks5 proxy(hardcoded).
