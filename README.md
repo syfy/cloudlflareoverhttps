@@ -1,4 +1,16 @@
 # gdns
+Cloned From: https://github.com/zengxs/gdns
+
++modified to cloudflare over https
+
+
+
+
+
+
+
+
+
 
 gdns 是一个被设计用于防污染的 DNS 转发器 (forwarder)，它将所有收到的 DNS 请求通过 TLS 安全连接到后端 Google 递归 DNS 服务器，确保了 DNS 数据的安全性；与此同时，它会根据客户端的 IP 地址数据 (edns_subnet) 查询对应的最优结果。
 
